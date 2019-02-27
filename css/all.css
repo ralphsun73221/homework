@@ -595,6 +595,54 @@ h3 {
   padding-top: 40px;
 }
 
+/* faqinfo */
+
+.faqinfo {
+  display: flex;
+  background: #ebebeb;
+}
+
+.faqinfo h2 {
+  padding: 100px 40px 100px 100px;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.faqinfo form {
+  padding: 100px 0 50px 0;
+  width: 460px;
+  line-height: 3.5em;
+}
+
+.faqinfo input {
+  box-sizing: border-box;
+  padding: 5px 0 5px 10px;
+  width: 460px;
+  border: 1px solid #ebebeb;
+  font-size: 20px;
+}
+
+.faqinfo textarea {
+  box-sizing: border-box;
+  padding: 5px 0 5px 10px;
+  width: 460px;
+  border: 1px solid #ebebeb;
+  font-size: 20px;
+}
+
+.faqinfo .faqbutton {
+  float: right;
+  padding: 0;
+  width: 140px;
+  height: 52px;
+  border: #00cc99;
+  border-radius: 5px;
+  background: #00cc99;
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+}
+
 /* footer */
 
 .footer {
