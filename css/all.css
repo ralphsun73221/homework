@@ -483,6 +483,44 @@ input {
   background: #ebebeb;
 }
 
+.courseinfo {
+  padding: 138px 0;
+  margin-top: 40px;
+  background: #ebebeb;
+}
+
+.courseinfowrap {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.courseinfo h2 {
+  line-height: 2em;
+  color: #323223;
+  font-size: 30px;
+  padding-right: 50px;
+}
+
+.coursebutton {
+  margin-top: 50px;
+  color: aliceblue;
+  background: #00cc99;
+  border: #00cc99;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 220px;
+  height: 52px;
+  padding: 18px 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.courseinfo a {
+  display: block;
+}
+
 /* footer */
 
 .footer {
