@@ -84,9 +84,9 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
+  font: inherit;
+  font-size: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -121,15 +121,15 @@ q:after {
   content: none;
 }
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 /* 基本設定 */
 
 .wrap {
-  width: 1024px;
   margin: 0 auto;
+  width: 1024px;
 }
 
 .clearfix {
@@ -137,51 +137,51 @@ table {
 }
 
 .indexbox {
+  position: absolute;
+  top: 69px;
+  right: 184px;
+  z-index: 10;
   width: 92px;
   height: 7px;
   background: #00cc99;
-  position: absolute;
-  z-index: 10;
-  right: 184px;
-  top: 69px;
 }
 
 .coursebox {
+  position: absolute;
+  top: 69px;
+  right: 92px;
+  z-index: 10;
   width: 92px;
   height: 7px;
   background: #00cc99;
-  position: absolute;
-  z-index: 10;
-  right: 92px;
-  top: 69px;
 }
 
 .faqbox {
+  position: absolute;
+  top: 69px;
+  right: 0px;
+  z-index: 10;
   width: 92px;
   height: 7px;
   background: #00cc99;
-  position: absolute;
-  z-index: 10;
-  right: 0px;
-  top: 69px;
 }
 
 .button {
   position: absolute;
-  color: aliceblue;
-  background: #00cc99;
-  border: #00cc99;
-  font-size: 20px;
-  left: 40px;
   top: 280px;
-  border-radius: 5px;
-  text-align: center;
+  left: 40px;
+  z-index: 1000;
+  box-sizing: border-box;
+  padding-top: 16px;
   width: 220px;
   height: 52px;
-  padding-top: 16px;
+  border: #00cc99;
+  border-radius: 5px;
+  background: #00cc99;
+  color: aliceblue;
+  text-align: center;
   text-decoration: none;
-  box-sizing: border-box;
-  z-index: 1000;
+  font-size: 20px;
 }
 
 .button img {
@@ -197,11 +197,11 @@ table {
 /* header */
 
 .menu {
-  background: rgb(74, 74, 74, 0.6);
-  /* opacity: 0.5; */
-  height: 76px;
   position: relative;
   z-index: 1000;
+  /* opacity: 0.5; */
+  height: 76px;
+  background: rgb(74, 74, 74, 0.6);
 }
 
 .menu a img {
@@ -229,8 +229,8 @@ table {
 }
 
 .menu li a:hover {
-  color: #00cc99;
   background: aliceblue;
+  color: #00cc99;
 }
 
 .banner {
@@ -240,18 +240,18 @@ table {
 
 .banner > img {
   position: absolute;
-  vertical-align: bottom;
   top: -76px;
+  vertical-align: bottom;
   /* z-index: 1; */
 }
 
 .banner h2 {
   position: absolute;
-  font-size: 48px;
-  line-height: 1.5em;
   top: 130px;
   left: 40px;
   color: aliceblue;
+  font-size: 48px;
+  line-height: 1.5em;
 }
 
 .banner h2 span {
@@ -267,23 +267,65 @@ table {
 
 .coursebanner > img {
   position: absolute;
-  vertical-align: bottom;
   top: -76px;
-  /* z-index: 1; */
+  vertical-align: bottom;
 }
 
 .coursebanner h2 {
   position: absolute;
-  font-size: 48px;
-  line-height: 1.5em;
   top: 130px;
   left: 40px;
   color: aliceblue;
+  font-size: 48px;
+  line-height: 1.5em;
 }
 
 .coursebanner h2 span {
-  font-size: 24px;
   color: #00cc99;
+  font-size: 24px;
+}
+
+/* faq */
+
+.faqbanner {
+  position: relative;
+  z-index: 20;
+}
+
+.faqbanner > img {
+  position: absolute;
+  top: -76px;
+  vertical-align: bottom;
+}
+
+.faqbanner h2 {
+  position: absolute;
+  top: 100px;
+  left: 332px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.5em;
+}
+
+.faqbanner h2 span {
+  color: #00cc99;
+  font-size: 24px;
+}
+
+.faqbanner > form {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  z-index: 1000;
+}
+
+.faqbanner input {
+  width: 620px;
+  height: 52px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  font-size: 24px;
 }
 
 /* 內容 */
@@ -299,13 +341,13 @@ h3 {
 }
 
 .content h2 {
-  font-size: 36px;
   color: #00cc99;
+  font-size: 36px;
 }
 
 .content h3 {
-  font-size: 20px;
   color: #9b9b9b;
+  font-size: 20px;
 }
 
 .more {
@@ -315,15 +357,15 @@ h3 {
 
 .more a {
   padding: 7.5px 14px;
-  text-decoration: none;
-  color: #00cc99;
   border: 2px solid #00cc99;
   border-radius: 5px;
+  color: #00cc99;
+  text-decoration: none;
 }
 
 .more a:hover {
-  color: aliceblue;
   background: #00cc99;
+  color: aliceblue;
 }
 
 .course ul {
@@ -332,12 +374,12 @@ h3 {
 }
 
 .course ul li {
-  width: 300px;
   float: left;
-  box-shadow: 0px 2px 5px #9b9b9b;
-  text-align: center;
   box-sizing: border-box;
   padding: 25px 15px;
+  width: 300px;
+  box-shadow: 0px 2px 5px #9b9b9b;
+  text-align: center;
   line-height: 2em;
 }
 
@@ -351,8 +393,8 @@ h3 {
 }
 
 .course ul li p {
-  text-align: left;
   color: #9b9b9b;
+  text-align: left;
   line-height: 1.5em;
 }
 
@@ -361,8 +403,8 @@ h3 {
 }
 
 .comparison table {
-  width: 100%;
   margin-top: 20px;
+  width: 100%;
 }
 
 .comparison span {
@@ -371,9 +413,9 @@ h3 {
 
 .comparison th,
 .comparison td {
-  border-bottom: 1px solid #dddddd;
-  border-top: 1px solid #dddddd;
   padding: 15px 10px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
   text-align: center;
 }
 
@@ -388,11 +430,11 @@ h3 {
 }
 
 .info h2 {
-  line-height: 2em;
+  display: inline-block;
+  padding: 100px 40px;
   color: #323223;
   font-size: 30px;
-  padding: 100px 40px;
-  display: inline-block;
+  line-height: 2em;
 }
 
 .info form {
@@ -401,7 +443,7 @@ h3 {
   /* position: relative; */
 }
 
-input {
+.info input {
   display: block;
   margin-bottom: 10px;
   width: 460px;
@@ -411,21 +453,21 @@ input {
 }
 
 .submitbutton {
-  font-size: 20px;
   float: right;
   width: 140px;
   height: 52px;
-  color: aliceblue;
-  background: #00cc99;
   border: #00cc99;
   border-radius: 5px;
+  background: #00cc99;
+  color: aliceblue;
+  font-size: 20px;
 }
 
 /* course */
 
 .coursewrap {
-  width: 650px;
   margin: auto;
+  width: 650px;
 }
 
 .lecturer {
@@ -438,8 +480,8 @@ input {
 } */
 
 .lecturer h2 {
-  line-height: 1.5em;
   padding: 48px 40px;
+  line-height: 1.5em;
 }
 
 .lecturer span {
@@ -450,8 +492,8 @@ input {
   padding: 48px 30px;
 }
 .lecturer li {
-  line-height: 1.5em;
   color: #9b9b9b;
+  line-height: 1.5em;
 }
 
 .coursecontnent {
@@ -463,9 +505,9 @@ input {
 }
 
 .coursecontnent li {
-  line-height: 2em;
   color: #323232;
   font-size: 16px;
+  line-height: 2em;
 }
 
 .point table {
@@ -474,59 +516,91 @@ input {
 }
 
 .point td {
-  color: #9b9b9b;
   padding: 20px 100px 20px 30px;
+  color: #9b9b9b;
 }
 
 .name td {
-  color: #323223;
   background: #ebebeb;
+  color: #323223;
 }
 
 .courseinfo {
-  padding: 138px 0;
   margin-top: 40px;
+  padding: 138px 0;
   background: #ebebeb;
 }
 
 .courseinfowrap {
   display: flex;
-  width: 600px;
   margin: 0 auto;
+  width: 600px;
 }
 
 .courseinfo h2 {
-  line-height: 2em;
+  padding-right: 50px;
   color: #323223;
   font-size: 30px;
-  padding-right: 50px;
+  line-height: 2em;
 }
 
 .coursebutton {
+  box-sizing: border-box;
   margin-top: 50px;
-  color: aliceblue;
-  background: #00cc99;
-  border: #00cc99;
-  font-size: 20px;
-  border-radius: 5px;
-  text-align: center;
+  padding: 18px 0;
   width: 220px;
   height: 52px;
-  padding: 18px 0;
+  border: #00cc99;
+  border-radius: 5px;
+  background: #00cc99;
+  color: aliceblue;
+  text-align: center;
   text-decoration: none;
-  box-sizing: border-box;
+  font-size: 20px;
 }
 
 .courseinfo a {
   display: block;
 }
 
+/* faqcontent */
+
+.faqwrap {
+  padding: 0 60px;
+}
+
+.faqcontent p {
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.faqcontent span {
+  color: #9b9b9b;
+  font-size: 16px;
+}
+
+.faqcontent li {
+  padding-left: 2em;
+  color: #9b9b9b;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.price {
+  padding-top: 40px;
+}
+
+.refund {
+  padding-top: 40px;
+}
+
 /* footer */
 
 .footer {
+  position: relative;
   height: 132px;
   background: #323228;
-  position: relative;
 }
 
 .footer img {
@@ -535,10 +609,10 @@ input {
 
 .footer p {
   position: absolute;
-  font-size: 16px;
-  color: #9b9b9b;
   top: 85px;
   left: 70px;
+  color: #9b9b9b;
+  font-size: 16px;
 }
 
 .footer ul {
