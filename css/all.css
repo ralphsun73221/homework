@@ -258,6 +258,34 @@ table {
   color: #00cc99;
 }
 
+/* course */
+
+.coursebanner {
+  position: relative;
+  z-index: 20;
+}
+
+.coursebanner > img {
+  position: absolute;
+  vertical-align: bottom;
+  top: -76px;
+  /* z-index: 1; */
+}
+
+.coursebanner h2 {
+  position: absolute;
+  font-size: 48px;
+  line-height: 1.5em;
+  top: 130px;
+  left: 40px;
+  color: aliceblue;
+}
+
+.coursebanner h2 span {
+  font-size: 24px;
+  color: #00cc99;
+}
+
 /* 內容 */
 
 .content {
@@ -332,7 +360,7 @@ h3 {
   margin-top: 40px;
 }
 
-table {
+.comparison table {
   width: 100%;
   margin-top: 20px;
 }
@@ -391,6 +419,68 @@ input {
   background: #00cc99;
   border: #00cc99;
   border-radius: 5px;
+}
+
+/* course */
+
+.coursewrap {
+  width: 650px;
+  margin: auto;
+}
+
+.lecturer {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.lecturer img {
+  border-radius: 150px;
+}
+
+.lecturer h2 {
+  line-height: 1.5em;
+  padding: 48px 40px;
+}
+
+.lecturer span {
+  color: #000;
+}
+
+.lecturer ul {
+  padding: 48px 30px;
+}
+.lecturer li {
+  line-height: 1.5em;
+  color: #9b9b9b;
+}
+
+.coursecontnent {
+  margin-bottom: 40px;
+}
+
+.coursecontnent ol {
+  padding-top: 30px;
+}
+
+.coursecontnent li {
+  line-height: 2em;
+  color: #323232;
+  font-size: 16px;
+}
+
+.point table {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.point td {
+  color: #9b9b9b;
+  padding: 20px 100px 20px 30px;
+}
+
+.name td {
+  color: #323223;
+  background: #ebebeb;
 }
 
 /* footer */
