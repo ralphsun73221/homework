@@ -452,7 +452,7 @@ h3 {
   /* position: absolute; */
 }
 
-.submitbutton {
+.info .submitbutton {
   float: right;
   width: 140px;
   height: 52px;
