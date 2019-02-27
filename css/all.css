@@ -173,7 +173,7 @@ table {
   border: #00cc99;
   font-size: 20px;
   left: 40px;
-  bottom: 200px;
+  top: 280px;
   border-radius: 5px;
   text-align: center;
   width: 220px;
@@ -181,11 +181,12 @@ table {
   padding-top: 16px;
   text-decoration: none;
   box-sizing: border-box;
+  z-index: 1000;
 }
 
 .button img {
-  float: right;
-  padding-right: 40px;
+  /* float: right; */
+  padding-left: 20px;
 }
 
 /* .button:hover {
@@ -195,15 +196,12 @@ table {
 
 /* header */
 
-.header {
-  /* margin-bottom: 10px; */
-  background: #4a4a4a;
-  position: relative;
-  z-index: 9;
-}
-
 .menu {
+  background: rgb(74, 74, 74, 0.6);
+  /* opacity: 0.5; */
   height: 76px;
+  position: relative;
+  z-index: 1000;
 }
 
 .menu a img {
@@ -235,16 +233,23 @@ table {
   background: aliceblue;
 }
 
-.banner img {
+.banner {
   position: relative;
+  z-index: 20;
+}
+
+.banner > img {
+  position: absolute;
   vertical-align: bottom;
+  top: -76px;
+  /* z-index: 1; */
 }
 
 .banner h2 {
   position: absolute;
   font-size: 48px;
   line-height: 1.5em;
-  top: 200px;
+  top: 130px;
   left: 40px;
   color: aliceblue;
 }
@@ -256,7 +261,7 @@ table {
 /* 內容 */
 
 .content {
-  margin: 10px 0;
+  margin: 500px 0 0 0;
   padding: 30px 30px;
 }
 
