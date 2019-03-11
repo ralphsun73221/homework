@@ -602,15 +602,23 @@ h3 {
 	padding: 0 60px;
 }
 
-.faqcontent p {
+.faqcontent h4 {
 	padding-top: 20px;
-	font-size: 20px;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.faqcontent p {
+	color: #9b9b9b;
 	line-height: 1.5em;
 }
 
 .faqcontent span {
-	color: #9b9b9b;
-	font-size: 16px;
+	color: #00cc99;
+}
+
+.faqcontent ol {
+	list-style: decimal inside;
 }
 
 .faqcontent li {
