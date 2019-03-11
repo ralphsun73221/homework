@@ -361,12 +361,12 @@ h3 {
 	color: aliceblue;
 }
 
-.course ul {
+.courselist ul {
 	display: inline-block;
 	margin-top: 20px;
 }
 
-.course ul li {
+.courselist ul li {
 	float: left;
 	box-sizing: border-box;
 	padding: 25px 15px;
@@ -376,16 +376,16 @@ h3 {
 	line-height: 2em;
 }
 
-.course .RWD {
+.courselist .RWD {
 	margin: 0 32px;
 }
 
-.course ul li h3 {
+.courselist ul li h3 {
 	display: block;
 	color: black;
 }
 
-.course ul li p {
+.courselist ul li p {
 	color: #9b9b9b;
 	text-align: left;
 	line-height: 1.5em;
