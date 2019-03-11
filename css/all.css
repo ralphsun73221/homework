@@ -309,16 +309,33 @@ table {
 .faqbanner > form {
 	position: absolute;
 	top: 250px;
-	left: 200px;
+	left: 150px;
 	z-index: 1000;
+	/* width: 620px; */
 }
 
 .faqbanner input {
+	display: inline-block;
+	box-sizing: border-box;
 	width: 620px;
 	height: 52px;
 	border: 1px solid #333333;
 	border-radius: 5px;
 	font-size: 24px;
+}
+
+.faqbanner .searchbuttom {
+	float: right;
+	width: 100px;
+	height: 52px;
+	background: #00cc99;
+	color: aliceblue;
+}
+
+.searchbuttom:hover {
+	background: #00cc99;
+	color: aliceblue;
+	cursor: pointer;
 }
 
 /* 內容 */
