@@ -456,6 +456,13 @@ h3 {
 	font-size: 20px;
 }
 
+.submitbutton:hover {
+	border: 1px solid #00cc99;
+	background: aliceblue;
+	color: #00cc99;
+	cursor: pointer;
+}
+
 /* course */
 
 .coursewrap {
@@ -552,6 +559,13 @@ h3 {
 	font-size: 20px;
 }
 
+.coursebutton:hover {
+	border: 1px solid #00cc99;
+	background: aliceblue;
+	color: #00cc99;
+	cursor: pointer;
+}
+
 .courseinfo a {
 	display: block;
 }
@@ -634,6 +648,13 @@ h3 {
 	color: aliceblue;
 	text-align: center;
 	font-size: 20px;
+}
+
+.faqbutton:hover {
+	border: 1px solid #00cc99;
+	background: aliceblue;
+	color: #00cc99;
+	cursor: pointer;
 }
 
 /* footer */
