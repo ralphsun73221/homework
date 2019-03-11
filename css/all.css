@@ -488,8 +488,9 @@ h3 {
 	color: #000;
 }
 
-.lecturer ul {
+.lecturer ol {
 	padding: 48px 30px;
+	list-style: decimal inside;
 }
 .lecturer li {
 	color: #9b9b9b;
@@ -502,6 +503,7 @@ h3 {
 
 .coursecontnent ol {
 	padding-top: 30px;
+	list-style: decimal inside;
 }
 
 .coursecontnent li {
@@ -513,6 +515,13 @@ h3 {
 .point table {
 	margin-top: 30px;
 	width: 100%;
+}
+
+.point th {
+	padding: 20px 100px 20px 30px;
+	background: #ebebeb;
+	color: #323223;
+	text-align: left;
 }
 
 .point td {
